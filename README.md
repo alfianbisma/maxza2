@@ -1,4 +1,4 @@
-# ARIFISTIFIK
+# MAX
 BOT PROTECT PY3 ANTI JS V2 LINE🐦FIXS UPDATE 19 AGUSTUS 2018
 ------
 GET TOKEN :
@@ -27,9 +27,9 @@ C9 SERVER/ VPS :
 - `sudo pip3 install wikipedia`
 - `sudo pip3 install tweepy`
 - `sudo pip3 install youtube_dl`
-- `git clone https://github.com/arifistifik/ajs2`
-- `cd ajs2`
-- `python ajs.py`
+- `git clone https://github.com/0954517662/maxjs2`
+- `cd maxjs2`
+- `python mjs.py`
 
 INSTALL Di TERMUX :
 - `pkg update`
@@ -48,19 +48,19 @@ INSTALL Di TERMUX :
 - `pip3 install wikipedia`
 - `pip3 install youtube_dl`
 - `pip3 install tweepy`
-- `git clone https://github.com/arifistifik/ajs2`
-- `cd ajs2`
-- `python3 ajs.py`
+- `git clone https://github.com/0954517662/maxjs2`
+- `cd maxjs2`
+- `python3 mjs.py`
 
 Cara Menjalankan Bot Kembali :
 ------
 Di C9 :
-- `cd ajs2`
-- `python3 ajs.py`
+- `cd maxjs2`
+- `python3 mjs.py`
 
 Di Termux :
-- `cd ajs2`
-- `python3 ajs.py`
+- `cd maxjs2`
+- `python3 mjs.py`
 
 
 EDITOR BY ARIFISTIFIK
