@@ -1,7 +1,7 @@
 {
-    "Mentiongift": false,
+    "Mentiongift": true,
     "Mentionkick": false,
-    "Respontag": "DUH KENA TAG",
+    "Respontag": "MAX KENA TAG",
     "Talkblacklist": {},
     "Talkdblacklist": false,
     "Talkwblacklist": false,
@@ -21,7 +21,7 @@
     "delladmin": false,
     "dellbots": false,
     "dellstaff": false,
-    "detectMention": false,
+    "detectMention": true,
     "leave": "Good Bye, See You Next Time 😃",
     "limit": 1,
     "mention": "NAH NGINTIP",
