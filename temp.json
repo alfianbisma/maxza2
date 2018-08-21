@@ -2,7 +2,7 @@
     "addPict": [],
     "author": {},
     "autoAdd": true,
-    "autoJoin": false,
+    "autoJoin": true,
     "autoJoinTicket": true,
     "autoLeave": false,
     "autoPurge": [],
@@ -47,7 +47,7 @@
     "responcallgc": true,
     "responpm": false,
     "restartBot": null,
-    "restartPoint": "c45040756c8074bff5a06c2e7c0b6a844",
+    "restartPoint": "ca1f5f9361386320256158f49bda4bb7e",
     "server": "VPS",
     "simsimi": [],
     "siriMode": [],
@@ -78,7 +78,7 @@
     "whitelist": {},
     "winvite": false,
     "wlc": [
-        "c45040756c8074bff5a06c2e7c0b6a844"
+        "ca1f5f9361386320256158f49bda4bb7e"
     ],
     "wwhitelist": false
 }
