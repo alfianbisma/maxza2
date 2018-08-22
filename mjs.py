@@ -10,32 +10,32 @@ from bs4 import BeautifulSoup
 from googletrans import Translator
 import youtube_dl
 #MAXJS_V2
-cl = LineClient('')
-#cl = LineClient(authToken='ISI TOKENMU  DISINI')
+#cl = LineClient()
+cl = LineClient(authToken='ISI TOKENMU  DISINI')
 cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
 
-ki = LineClient('')
-#ki = LineClient(authToken='ISI TOKENMU  DISINI')
+#ki = LineClient()
+ki = LineClient(authToken='ISI TOKENMU  DISINI')
 ki.log("Auth Token : " + str(ki.authToken))
 channel1 = LineChannel(ki)
 ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
 
-kk = LineClient('')
-#kk = LineClient(authToken='ISI TOKENMU  DISINI')
+#kk = LineClient()
+kk = LineClient(authToken='ISI TOKENMU  DISINI')
 kk.log("Auth Token : " + str(kk.authToken))
 channel2 = LineChannel(kk)
 kk.log("Channel Access Token : " + str(channel2.channelAccessToken))
 
-kc = LineClient('')
-#kc = LineClient(authToken='ISI TOKENMU  DISINI')
+#kc = LineClient()
+kc = LineClient(authToken='ISI TOKENMU  DISINI')
 kc.log("Auth Token : " + str(kc.authToken))
 channel3 = LineChannel(kc)
 kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
 
-sw = LineClient('')
-#sw = LineClient(authToken='ISI TOKENMU  DISINI')
+#sw = LineClient()
+sw = LineClient(authToken='ISI TOKENMU  DISINI')
 sw.log("Auth Token : " + str(sw.authToken))
 channel11 = LineChannel(sw)
 sw.log("Channel Access Token : " + str(channel11.channelAccessToken))
