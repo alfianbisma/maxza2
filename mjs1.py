@@ -130,10 +130,10 @@ wait = {
     "sticker":False,
     "selfbot":True,
     "mention":"SINI KAK GABUNG CHAT AJA 😊",
-    "Respontag":"BY: ™ധู้ざຣ้ণს✚ປิʨℓℓҨබମ™",
+    "Respontag":"รักแม็คคนเดียว 😍",
     "welcome":"Selamat datang & betah",
     "comment":"Like like & like by ™ധู้ざຣ้ণს✚ປิʨℓℓҨබମ™",
-    "message":"Terimakasih sudah add saya 😃",
+    "message":"มีผัวแล้วนะ 😄\nขอบล็อคนะจ้ะ 👌",
     }
 
 read = {
@@ -627,6 +627,7 @@ def bot(op):
                     else:
                         cl.sendText(op.param1, wait["message"])
                         cl.sendContact(op.param1, "u4862fe4b182b2fd194a3108e2f3662e8")
+                        cl.blockContact(op.param1)
 
         if op.type == 19:
             if op.param1 in protectkick:
