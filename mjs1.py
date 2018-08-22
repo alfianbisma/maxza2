@@ -11,7 +11,7 @@ from googletrans import Translator
 import youtube_dl
 #MAXJS_V2
 #cl = LineClient('')
-cl = LineClient(authToken='ISI TOKENMU  DISINI')
+cl = LineClient(authToken='Ew5ozJGQAPEPsF0e7Nl4.BgOnUJuqpeI9QUnCixulfa.Osluf+/QH5iFIYS+tArFbX98tiecPRnEZyIq9txyXjs=')
 cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
@@ -42,10 +42,10 @@ cl.log("Channel Access Token : " + str(channel.channelAccessToken))
 
 poll = LinePoll(cl)
 call = cl
-creator = ["u4862fe4b182b2fd194a3108e2f3662e8","ue1d6a794435130d139f9c5dde19aa9e5"]
-owner = ["u4862fe4b182b2fd194a3108e2f3662e8","ue1d6a794435130d139f9c5dde19aa9e5"]
-admin = ["u4862fe4b182b2fd194a3108e2f3662e8","ue1d6a794435130d139f9c5dde19aa9e5"]
-staff = ["u4862fe4b182b2fd194a3108e2f3662e8","ue1d6a794435130d139f9c5dde19aa9e5"]
+creator = ["u4862fe4b182b2fd194a3108e2f3662e8","ue1d6a794435130d139f9c5dde19aa9e5","u6c6a0dba35103c48bdaae35c21750b14"]
+owner = ["u4862fe4b182b2fd194a3108e2f3662e8","ue1d6a794435130d139f9c5dde19aa9e5","u6c6a0dba35103c48bdaae35c21750b14"]
+admin = ["u4862fe4b182b2fd194a3108e2f3662e8","ue1d6a794435130d139f9c5dde19aa9e5","u6c6a0dba35103c48bdaae35c21750b14"]
+staff = ["u4862fe4b182b2fd194a3108e2f3662e8","ue1d6a794435130d139f9c5dde19aa9e5","u6c6a0dba35103c48bdaae35c21750b14"]
 mid = cl.getProfile().mid
 #Amid = ki.getProfile().mid
 #Bmid = kk.getProfile().mid
