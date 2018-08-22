@@ -130,10 +130,10 @@ wait = {
     "sticker":False,
     "selfbot":True,
     "mention":"SINI KAK GABUNG CHAT AJA 😊",
-    "Respontag":"รักแม็คคนเดียว 😍",
+    "Respontag":"แท็คทำไม 😌\nคิดถึงเค้าอะดิ 😆",
     "welcome":"Selamat datang & betah",
     "comment":"Like like & like by ™ധู้ざຣ้ণს✚ປิʨℓℓҨබମ™",
-    "message":"มีผัวแล้วนะ 😄\nขอบล็อคนะจ้ะ 👌",
+    "message":"ไม่มีอะไร 😌\nขอบล็อคนะจ้ะ 👌",
     }
 
 read = {
