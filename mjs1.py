@@ -10,50 +10,50 @@ from bs4 import BeautifulSoup
 from googletrans import Translator
 import youtube_dl
 #MAXJS_V2
-cl = LineClient('')
-#cl = LineClient(authToken='ISI TOKENMU  DISINI')
+#cl = LineClient('')
+cl = LineClient(authToken='ISI TOKENMU  DISINI')
 cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
 
-ki = LineClient('')
+#ki = LineClient('')
 #ki = LineClient(authToken='ISI TOKENMU  DISINI')
-ki.log("Auth Token : " + str(ki.authToken))
-channel1 = LineChannel(ki)
-ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
+#ki.log("Auth Token : " + str(ki.authToken))
+#channel1 = LineChannel(ki)
+#ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
 
-kk = LineClient('')
+#kk = LineClient('')
 #kk = LineClient(authToken='ISI TOKENMU  DISINI')
-kk.log("Auth Token : " + str(kk.authToken))
-channel2 = LineChannel(kk)
-kk.log("Channel Access Token : " + str(channel2.channelAccessToken))
+#kk.log("Auth Token : " + str(kk.authToken))
+#channel2 = LineChannel(kk)
+#kk.log("Channel Access Token : " + str(channel2.channelAccessToken))
 
-kc = LineClient('')
+#kc = LineClient('')
 #kc = LineClient(authToken='ISI TOKENMU  DISINI')
-kc.log("Auth Token : " + str(kc.authToken))
-channel3 = LineChannel(kc)
-kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
+#kc.log("Auth Token : " + str(kc.authToken))
+#channel3 = LineChannel(kc)
+#kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
 
-sw = LineClient('')
+#sw = LineClient('')
 #sw = LineClient(authToken='ISI TOKENMU  DISINI')
-sw.log("Auth Token : " + str(sw.authToken))
-channel11 = LineChannel(sw)
-sw.log("Channel Access Token : " + str(channel11.channelAccessToken))
+#sw.log("Auth Token : " + str(sw.authToken))
+#channel11 = LineChannel(sw)
+#sw.log("Channel Access Token : " + str(channel11.channelAccessToken))
 
 poll = LinePoll(cl)
 call = cl
-creator = ["u4862fe4b182b2fd194a3108e2f3662e8"]
-owner = ["u4862fe4b182b2fd194a3108e2f3662e8"]
-admin = ["u4862fe4b182b2fd194a3108e2f3662e8"]
-staff = ["u4862fe4b182b2fd194a3108e2f3662e8"]
+creator = ["u4862fe4b182b2fd194a3108e2f3662e8","ue1d6a794435130d139f9c5dde19aa9e5"]
+owner = ["u4862fe4b182b2fd194a3108e2f3662e8","ue1d6a794435130d139f9c5dde19aa9e5"]
+admin = ["u4862fe4b182b2fd194a3108e2f3662e8","ue1d6a794435130d139f9c5dde19aa9e5"]
+staff = ["u4862fe4b182b2fd194a3108e2f3662e8","ue1d6a794435130d139f9c5dde19aa9e5"]
 mid = cl.getProfile().mid
-Amid = ki.getProfile().mid
-Bmid = kk.getProfile().mid
-Cmid = kc.getProfile().mid
-Zmid = sw.getProfile().mid
-KAC = [cl,ki,kk,kc]
-ABC = [ki,kk,kc]
-Bots = [mid,Amid,Bmid,Cmid,Zmid]
+#Amid = ki.getProfile().mid
+#Bmid = kk.getProfile().mid
+#Cmid = kc.getProfile().mid
+#Zmid = sw.getProfile().mid
+KAC = [cl]
+#ABC = [ki,kk,kc]
+Bots = [mid]
 Dpk = admin + staff
 
 protectqr = []
@@ -66,16 +66,16 @@ ghost = []
 
 welcome = []
 
-responsename1 = ki.getProfile().displayName
-responsename2 = kk.getProfile().displayName
-responsename3 = kc.getProfile().displayName
+#responsename1 = ki.getProfile().displayName
+#responsename2 = kk.getProfile().displayName
+#responsename3 = kc.getProfile().displayName
 
 settings = {
     "Picture":False,
     "group":{},
     "groupPicture":False,
     "changePicture":False,
-    "autoJoinTicket":False,
+    "autoJoinTicket":True,
     "userAgent": [
         "Mozilla/5.0 (X11; U; Linux i586; de; rv:5.0) Gecko/20100101 Firefox/5.0",
         "Mozilla/5.0 (X11; U; Linux amd64; rv:5.0) Gecko/20100101 Firefox/5.0 (Debian)",
