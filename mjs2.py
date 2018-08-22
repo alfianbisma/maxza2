@@ -133,7 +133,7 @@ wait = {
     "Respontag":"แท็คทำไม 😌\nคิดถึงเค้าอะดิ 😆",
     "welcome":"Selamat datang & betah",
     "comment":"Like like & like by ™ധู้ざຣ้ণს✚ປิʨℓℓҨබମ™",
-    "message":"ไม่มีอะไร 😌\nขอบล็อคนะจ้ะ 👌",
+    "message":"OK บล็อคแล้วครับ 😘",
     }
 
 read = {
@@ -626,7 +626,7 @@ def bot(op):
                         pass
                     else:
                         cl.sendText(op.param1, wait["message"])
-                        cl.sendContact(op.param1, "u4862fe4b182b2fd194a3108e2f3662e8")
+                        cl.sendContact(op.param1, "u6c6a0dba35103c48bdaae35c21750b14")
                         cl.blockContact(op.param1)
 
         if op.type == 19:
