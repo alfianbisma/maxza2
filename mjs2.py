@@ -11,7 +11,7 @@ from googletrans import Translator
 import youtube_dl
 #MAXJS_V2
 #cl = LineClient('')
-cl = LineClient(authToken='ISI TOKENMU  DISINI')
+cl = LineClient(authToken='EwNNdRJYBre5fQsoAy35.4DANLenrmne5/CxD4zQP5q.1g0ZGBuMs9NzTWkPLyxi7mPiXG/yqs09LzBBXnBtOBQ=')
 cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
