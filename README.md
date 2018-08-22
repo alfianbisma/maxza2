@@ -27,7 +27,7 @@ C9 SERVER/ VPS :
 - `sudo pip3 install wikipedia`
 - `sudo pip3 install tweepy`
 - `sudo pip3 install youtube_dl`
-- `git clone https://github.com/0954517662/maxjs2`
+- `git clone https://github.com/0954517662/maxzajs2`
 - `cd maxjs2`
 - `python mjs.py`
 
@@ -48,18 +48,18 @@ INSTALL Di TERMUX :
 - `pip3 install wikipedia`
 - `pip3 install youtube_dl`
 - `pip3 install tweepy`
-- `git clone https://github.com/0954517662/maxjs2`
+- `git clone https://github.com/0954517662/maxzajs2`
 - `cd maxjs2`
 - `python3 mjs.py`
 
 Cara Menjalankan Bot Kembali :
 ------
 Di C9 :
-- `cd maxjs2`
+- `cd maxzajs2`
 - `python3 mjs.py`
 
 Di Termux :
-- `cd maxjs2`
+- `cd maxzajs2`
 - `python3 mjs.py`
 
 
